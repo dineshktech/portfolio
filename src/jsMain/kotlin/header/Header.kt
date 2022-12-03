@@ -43,7 +43,7 @@ fun Header() {
             target(ATarget.Blank)
             classes(HeaderStyle.navbarPart, HeaderStyle.navbarGithub)
         }) {
-            P("DK")
+            P("Dino")
 
 //            Img(localImage("dk.jpg"), "avatar") {
 //                classes(HeaderStyle.mobileMenuButton)

@@ -35,7 +35,7 @@ fun main() {
             Div({
                 id("main")
             }) {
-                route("/") {
+                route("/portfolio") {
                     Home()
                 }
 
@@ -59,7 +59,7 @@ fun main() {
             Footer()
 
             noMatch {
-                redirect("/", true)
+                redirect("/portfolio", true)
             }
         }
     }

@@ -18,7 +18,7 @@ import org.jetbrains.compose.web.dom.Header
 import org.jetbrains.compose.web.dom.I
 import utils.*
 
-const val GITHUB_LINK = "https://github.com/dinokodes"
+const val GITHUB_LINK = "https://github.com/CodeWithDino/portfolio"
 
 @Composable
 fun Header() {
@@ -44,10 +44,6 @@ fun Header() {
             classes(HeaderStyle.navbarPart, HeaderStyle.navbarGithub)
         }) {
             P("Dino")
-
-//            Img(localImage("dk.jpg"), "avatar") {
-//                classes(HeaderStyle.mobileMenuButton)
-//            }
             I(FontAwesomeType.BRAND, "github")
         }
 

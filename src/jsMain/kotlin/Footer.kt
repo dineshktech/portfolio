@@ -16,11 +16,12 @@ import kotlin.js.Date
 
 const val LINKEDIN_LINK = "https://www.linkedin.com/in/dineshmanimozhian/"
 const val TWITTER_LINK = "https://twitter.com/dinokodes"
+const val GITHUB_LINK_HOME = "https://github.com/CodeWithDino"
 
 data class FooterSocial(val iconName: String, val url: String)
 
 val footerSocials = listOf(
-	FooterSocial("github", GITHUB_LINK),
+	FooterSocial("github", GITHUB_LINK_HOME),
 	FooterSocial("linkedin", LINKEDIN_LINK),
 	FooterSocial("twitter", TWITTER_LINK),
 )

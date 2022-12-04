@@ -35,7 +35,7 @@ fun main() {
             Div({
                 id("main")
             }) {
-                route("/portfolio") {
+                route("/") {
                     Home()
                 }
 

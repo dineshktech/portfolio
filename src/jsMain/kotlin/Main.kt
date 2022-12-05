@@ -59,7 +59,7 @@ fun main() {
             Footer()
 
             noMatch {
-                redirect("/portfolio", true)
+                redirect("/", true)
             }
         }
     }

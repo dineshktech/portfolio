@@ -18,7 +18,7 @@ import org.jetbrains.compose.web.dom.Header
 import org.jetbrains.compose.web.dom.I
 import utils.*
 
-const val GITHUB_LINK = "https://github.com/CodeWithDino/portfolio"
+const val GITHUB_LINK = "https://github.com/dineshktech/portfolio"
 
 @Composable
 fun Header() {

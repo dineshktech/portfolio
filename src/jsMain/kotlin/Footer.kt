@@ -15,8 +15,8 @@ import utils.*
 import kotlin.js.Date
 
 const val LINKEDIN_LINK = "https://www.linkedin.com/in/dineshmanimozhian/"
-const val TWITTER_LINK = "https://twitter.com/dinokodes"
-const val GITHUB_LINK_HOME = "https://github.com/CodeWithDino"
+const val TWITTER_LINK = "https://twitter.com/dineshktech"
+const val GITHUB_LINK_HOME = "https://github.com/dineshktech"
 
 data class FooterSocial(val iconName: String, val url: String)
 
@@ -140,7 +140,7 @@ fun Footer() {
 			}
 			
 			Div {
-				P("© ${Date().getFullYear()} CodeWithDino - All rights reserved.")
+				P("© ${Date().getFullYear()} DineshKTech - All rights reserved.")
 			}
 		}
 	}
